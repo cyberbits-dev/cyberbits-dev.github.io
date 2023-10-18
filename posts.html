@@ -1,0 +1,17 @@
+---
+layout: blog
+---
+
+<div class="list-group">
+  {%- for post in site.posts -%}
+  <div class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <a href="{{ post.url | relative_url }}">
+        <h5 class="mb-1">{{ post.title | escape }}</h5>
+      </a>
+      <small>{{ post.date | date: "%F" }}</small>
+    </div>
+    <p class="mb-1">{{ post.content }}</p>
+  </div>
+  {%- endfor -%}
+</div>

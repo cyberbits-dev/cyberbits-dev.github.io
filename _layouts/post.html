@@ -1,0 +1,21 @@
+---
+layout: blog
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="d-flex justify-content-between">
+    <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+    <div>
+      {% for category in page.categories %}
+      <a href="/posts/categories/#{{ category }}"><span class="badge text-bg-secondary">{{category}}</span></a>
+      {% endfor %}
+      <time class="badge text-bg-secondary" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%F" }}
+      </time>
+    </div>
+  </header>
+
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>

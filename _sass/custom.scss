@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  transform: scale(1.5);
+  display: inline-block;
+  fill: #333;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
+
+.card-img {
+  opacity: 0.25;
+}
+
+#banner {
+  background-image: url("/assets/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 10rem 0;
+}

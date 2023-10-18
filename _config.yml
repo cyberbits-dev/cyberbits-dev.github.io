@@ -21,18 +21,21 @@
 title: Cyberbits.dev
 email: contact@cyberbits.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Cyberbits.dev is an established IT consulting firm with a remote team of highly skilled professionals.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cyberbits-dev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://cyberbits.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: cyberbits-dev
+linkedin_username: company/cyberbits-dev
+telegram_username: cyberbitsdotdev
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  posts:
+    permalink: /:collection/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
