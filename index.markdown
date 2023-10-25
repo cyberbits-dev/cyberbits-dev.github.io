@@ -36,7 +36,7 @@ layout: default
                 <div class="card text-bg-dark">
                   <img src="/assets/clients/cyberbits-eu.png" class="card-img" alt="cyberbits.eu">
                   <div class="card-img-overlay">
-                    <h3 class="card-title">cyberbits.eu</h3>
+                    <h2 class="card-title">cyberbits.eu</h2>
                     <p class="card-text">Software mirror, PGP server, NTP server and more. We manage and improve the insfrastructure continually.</p>
                     <p class="card-text">
                       <kbd>#infrastructure</kbd>
@@ -53,7 +53,7 @@ layout: default
                 <div class="card text-bg-dark">
                   <img src="/assets/clients/dcr-farm.png" class="card-img" alt="dcr.farm">
                   <div class="card-img-overlay">
-                    <h3 class="card-title">dcr.farm</h3>
+                    <h2 class="card-title">dcr.farm</h2>
                     <p class="card-text">Cryptocurrency staking provider. We maintain the website and API up-to-date with the Decred blockchain and handle customer support.</p>
                     <p class="card-text">
                       <kbd>#crypto</kbd>
@@ -69,7 +69,7 @@ layout: default
                 <div class="card text-bg-dark">
                   <img src="/assets/clients/cool-cash.png" class="card-img" alt="cool.cash">
                   <div class="card-img-overlay">
-                    <h3 class="card-title">cool.cash</h3>
+                    <h2 class="card-title">cool.cash</h2>
                     <p class="card-text">Wealth management software to manage a well diversified portfolio of assets. We develop and design the software in collaboration with the client.</p>
                     <p class="card-text">
                       <kbd>#api</kbd>

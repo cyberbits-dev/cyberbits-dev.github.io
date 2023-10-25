@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.25;
 }
 
+.card-text { font-size: 0.75rem; }
+@media (min-width: 576px) {
+  .card-text { font-size: inherit; }
+}
+
 #banner {
   background-image: url("/assets/banner.jpg");
   background-position: center center;
