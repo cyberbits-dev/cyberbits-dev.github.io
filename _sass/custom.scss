@@ -21,18 +21,12 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: text-top;
 }
 
-.card-img {
-  opacity: 0.25;
-}
-
-.card-text { font-size: 0.75rem; }
-@media (min-width: 576px) {
-  .card-text { font-size: inherit; }
-}
-
-#banner {
-  background-image: url("/assets/banner.jpg");
+.bg-img {
   background-position: center center;
   background-size: cover;
+}
+
+.bg-banner {
+  background-image: url("/assets/banner.jpg");
   padding: 10rem 0;
 }

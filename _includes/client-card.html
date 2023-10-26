@@ -1,0 +1,15 @@
+<div class="col">
+  <a href="https://{{ include.domain }}/" target="_blank" class="text-decoration-none">
+    {% assign id = include.domain | replace: ".", "-" %}
+    <div class="card p-2 text-bg-dark bg-img h-100" style="background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url('/assets/clients/{{ id }}.png')">
+      <h2 class="card-title">{{ include.domain }}</h2>
+      <p class="card-text">{{ include.description }}</p>
+      <p class="card-text">
+        {% assign tags = include.tags | split: "," %}
+        {% for tag in tags %}
+        <kbd>#{{ tag }}</kbd>
+        {% endfor %}
+      </p>
+    </div>
+  </a>
+</div>

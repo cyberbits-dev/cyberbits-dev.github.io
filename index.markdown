@@ -5,18 +5,18 @@
 layout: default
 ---
 
-<div id="banner">
+<div id="banner" class="bg-img bg-banner">
   <div class="container d-flex align-items-center justify-content-center text-center h-100">
     <div>
-    <h1 class="display-1">Transform your IT infrastructure</h1>
-    <p class="fs-4 my-4">Unlock the full potential of your business with expert IT consulting services.</p>
-    <a class="btn btn-dark px-4" role="button" rel="nofollow" href="#content">Get started</a>
+      <h1 class="display-1">Transform your IT infrastructure</h1>
+      <p class="fs-4 my-4">Unlock the full potential of your business with expert IT consulting services.</p>
+      <a class="btn btn-dark px-4" role="button" rel="nofollow" href="#content">Get started</a>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <a id="content" href="#"></a>
+  <a aria-label="content" id="content" href="#"></a>
 
   <div class="d-flex flex-column mb-3">
     <div class="my-5 text-center fs-4">
@@ -31,55 +31,11 @@ layout: default
           <h1>Clients</h1>
 
           <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
-            <div class="col">
-              <a href="https://cyberbits.eu/" target="_blank">
-                <div class="card text-bg-dark">
-                  <img src="/assets/clients/cyberbits-eu.png" class="card-img" alt="cyberbits.eu">
-                  <div class="card-img-overlay">
-                    <h2 class="card-title">cyberbits.eu</h2>
-                    <p class="card-text">Software mirror, PGP server, NTP server and more. We manage and improve the insfrastructure continually.</p>
-                    <p class="card-text">
-                      <kbd>#infrastructure</kbd>
-                      <kbd>#devops</kbd>
-                      <kbd>#networking</kbd>
-                      <kbd>#chef</kbd>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://dcr.farm/" target="_blank">
-                <div class="card text-bg-dark">
-                  <img src="/assets/clients/dcr-farm.png" class="card-img" alt="dcr.farm">
-                  <div class="card-img-overlay">
-                    <h2 class="card-title">dcr.farm</h2>
-                    <p class="card-text">Cryptocurrency staking provider. We maintain the website and API up-to-date with the Decred blockchain and handle customer support.</p>
-                    <p class="card-text">
-                      <kbd>#crypto</kbd>
-                      <kbd>#security</kbd>
-                      <kbd>#golang</kbd>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col">
-              <a href="https://cool.cash/" target="_blank">
-                <div class="card text-bg-dark">
-                  <img src="/assets/clients/cool-cash.png" class="card-img" alt="cool.cash">
-                  <div class="card-img-overlay">
-                    <h2 class="card-title">cool.cash</h2>
-                    <p class="card-text">Wealth management software to manage a well diversified portfolio of assets. We develop and design the software in collaboration with the client.</p>
-                    <p class="card-text">
-                      <kbd>#api</kbd>
-                      <kbd>#bespoke</kbd>
-                      <kbd>#rubyonrails</kbd>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
+            {% include client-card.html domain="cyberbits.eu" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
+
+            {% include client-card.html domain="dcr.farm" description="Cryptocurrency staking provider. We maintain the website and API up-to-date with the Decred blockchain and handle customer support." tags="crypto,security,golang" %}
+
+            {% include client-card.html domain="cool.cash" description="Wealth management software for a diversified portfolio of assets. We develop and design the software in collaboration with the client." tags="api,bespoke,rubyonrails" %}
           </div>
         </div>
       </div>
