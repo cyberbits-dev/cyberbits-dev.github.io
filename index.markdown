@@ -93,11 +93,11 @@ layout: default
           <form action="https://api.cool.cash/v1/contact" method="get" onsubmit="sendForm(event, this)" class="row">
             <div class="col-12 col-md-6 mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control" id="name" autocomplete="name" required>
             </div>
             <div class="col-12 col-md-6 mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" class="form-control" id="email" autocomplete="email" required>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
