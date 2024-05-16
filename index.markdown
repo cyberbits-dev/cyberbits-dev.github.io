@@ -56,8 +56,8 @@ layout: default
           </p>
 
           <p>
-            Our expertise lies in deliveries tailored IT strategies and technology infrastructure to help our clients stay ahead in today's rapidly evolving digital landscape.
-            We are committed to delivering exceptional service, innovative solutions, and measurable results to drive our clients' success.
+            Our expertise lies in delivering tailored IT strategies and technology infrastructure to help our clients stay ahead in today's rapidly evolving digital landscape.
+            We are committed to providing exceptional service, innovative solutions, and measurable results to drive our clients' success.
           </p>
         </div>
       </div>
@@ -90,7 +90,7 @@ layout: default
               }).catch((e) => oops(e));
             }
           </script>
-          <form action="https://api.cool.cash/v1/contact" method="get" onsubmit="sendForm(event, this)" class="row">
+          <form action="https://api.cyberbits.asia/v1/contact" method="get" onsubmit="sendForm(event, this)" class="row">
             <div class="col-12 col-md-6 mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" autocomplete="name" required>
