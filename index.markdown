@@ -21,8 +21,11 @@ layout: default
   <div class="d-flex flex-column mb-3">
     <div class="my-5 text-center fs-4">
       Are you looking for a team of experienced IT consulting experts?
-      We provide services and solutions for Free Software, privacy projects like Tor and cryptocurrencies.
-      We specialize in decentralized hosting, system administration and custom development.
+
+      We provide hosting services and tailored website development for individuals and <abbr title="Small and medium-sized enterprises">SMEs</abbr>.
+      We specialize in decentralized hosting worldwide, <abbr title="Content Delivery Network">CDN</abbr>, mirroring services and DevOps.
+
+      We also provide consulting in cloud infrastructure, scaling, data analysis, etc.
     </div>
 
     <div class="my-5 text-center">
@@ -31,9 +34,9 @@ layout: default
           <h1>Clients</h1>
 
           <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
-            {% include client-card.html domain="cyberbits.eu" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
+            {% include client-card.html domain="cyberbits.asia" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
 
-            {% include client-card.html domain="dcr.farm" description="Cryptocurrency staking provider. We maintain the website and API up-to-date with the Decred blockchain and handle customer support." tags="crypto,security,golang" %}
+            {% include client-card.html domain="cyberbits.eu" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
 
             {% include client-card.html domain="cool.cash" description="Wealth management software for a diversified portfolio of assets. We develop and design the software in collaboration with the client." tags="api,bespoke,rubyonrails" %}
           </div>
@@ -52,7 +55,8 @@ layout: default
 
           <p>
             Cyberbits.dev is an established IT consulting firm with a remote team of highly skilled professionals.
-            We provide comprehensive IT solutions to businesses of all sizes.
+            We provide comprehensive IT solutions to individuals and small businesses.
+            We love to help open-source software and privacy-respecting projects.
           </p>
 
           <p>
@@ -68,6 +72,7 @@ layout: default
         <div class="col-12 col-md-6">
           <h1>Contact us</h1>
           <p>
+            Let's talk.
             Send us a message here or
             <a class="link-secondary" href="mailto:{{ site.email }}">email us</a>.
           </p>
