@@ -20,12 +20,21 @@ layout: default
 
   <div class="d-flex flex-column mb-3">
     <div class="my-5 text-center fs-4">
-      Are you looking for a team of experienced IT consulting experts?
+      <p>
+        Are you looking for a team of experienced IT consulting experts?
+      </p>
 
-      We provide hosting services and tailored website development for individuals and <abbr title="Small and medium-sized enterprises">SMEs</abbr>.
-      We specialize in decentralized hosting worldwide, <abbr title="Content Delivery Network">CDN</abbr>, mirroring services and DevOps.
+      <p>
+        We provide hosting services and tailored website development for individuals, <abbr title="Small and medium-sized enterprises">SMEs</abbr> and <a href="https://en.wikipedia.org/wiki/Free_software">Free&nbsp;Software</a> projects.
+      </p>
 
-      We also provide consulting in cloud infrastructure, scaling, data analysis, etc.
+      <p>
+        We specialize in decentralized hosting worldwide, mirroring services, DevOps and Linux system administration.
+      </p>
+
+      <p>
+        We also provide custom software development and consulting in cloud infrastructure, scaling, data analysis, etc.
+      </p>
     </div>
 
     <div class="my-5 text-center">
@@ -54,7 +63,7 @@ layout: default
           <h1>About us</h1>
 
           <p>
-            Cyberbits.dev is an established IT consulting firm with a remote team of highly skilled professionals.
+            We are an established IT consulting firm with a remote team of highly skilled professionals.
             We provide comprehensive IT solutions to individuals and small businesses.
             We love to help open-source software and privacy-respecting projects.
           </p>

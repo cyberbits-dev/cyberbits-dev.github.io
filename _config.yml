@@ -19,9 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cyberbits.dev
+company: Cyberbits Labs Ltd.
 email: contact@cyberbits.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Cyberbits.dev is an established IT consulting firm with a remote team of highly skilled professionals.
+  Transform your IT infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cyberbits.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: cyberbits-dev
