@@ -26,9 +26,9 @@ email: contact@cyberbits.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Transform your IT infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username: cyberbits-dev
-linkedin_username: company/cyberbits-dev
-telegram_username: cyberbitsdotdev
+github_username: cyberbits-labs
+linkedin_username: company/cyberbits-labs
+telegram_username: cyberbits_labs
 
 # Build settings
 theme: minima
