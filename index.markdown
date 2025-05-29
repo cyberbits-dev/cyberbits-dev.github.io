@@ -104,7 +104,7 @@ layout: default
               }).catch((e) => oops(e));
             }
           </script>
-          <form action="https://api.cyberbits.asia/v1/contact" method="get" onsubmit="sendForm(event, this)" class="row">
+          <form action="https://api.{{ site.domain }}/v1/contact" method="get" onsubmit="sendForm(event, this)" class="row">
             <div class="col-12 col-md-6 mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" autocomplete="name" required>

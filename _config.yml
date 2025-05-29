@@ -20,11 +20,12 @@
 
 title: Cyberbits.dev
 company: Cyberbits Labs Ltd.
+domain: cyberbits.dev
+url: "https://cyberbits.dev" # the base hostname & protocol for your site, e.g. http://example.com
 email: contact@cyberbits.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Transform your IT infrastructure.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cyberbits.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: cyberbits-dev
 linkedin_username: company/cyberbits-dev
 telegram_username: cyberbitsdotdev
