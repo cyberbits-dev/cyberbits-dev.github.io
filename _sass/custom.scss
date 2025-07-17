@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
 }
 
+h1 {
+  text-shadow: #fff 0 0 2rem;
+}
+
 .navbar-brand {
   font-family: "Permanent Marker", cursive;
 }
@@ -27,6 +31,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-banner {
-  background-image: url("/assets/banner.jpg");
-  padding: 10rem 0;
+  padding: 8rem 0;
 }

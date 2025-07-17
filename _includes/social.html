@@ -1,11 +1,4 @@
 <ul class="navbar-nav d-flex flex-row justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link px-2 d-none d-sm-block" href="https://status.{{ site.domain }}/" target="_blank">Status</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link px-2 d-none d-sm-block" href="/posts/">Blog</a>
-  </li>
-
   {%- if site.facebook_username -%}<li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if site.flickr_username -%}<li class="nav-item"><a class="nav-link px-2" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#flickr' | relative_url }}"></use></svg></a></li>{%- endif -%}
   {%- if site.github_username -%}<li class="nav-item"><a title="GitHub" class="nav-link px-2" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#github' | relative_url }}"></use></svg></a></li>{%- endif -%}

@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<div id="banner" class="bg-img bg-banner">
+<div id="banner" class="bg-img bg-banner" style="background-image: url('/assets/banner-index.jpg')">
   <div class="container d-flex align-items-center justify-content-center text-center h-100">
     <div>
       <h1 class="display-1">Transform your IT infrastructure</h1>
