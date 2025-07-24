@@ -9,53 +9,45 @@ layout: default
   <div class="container d-flex align-items-center justify-content-center text-center h-100">
     <div>
       <h1 class="display-1">Transform your IT infrastructure</h1>
-      <p class="fs-4 my-4">Unlock the full potential of your business with expert IT consulting services.</p>
-      <a class="btn btn-dark px-4" role="button" rel="nofollow" href="#content">Get started</a>
+      <p class="fs-4">Unlock the full potential of your business with expert IT consulting services.</p>
+      <a class="btn btn-dark px-4 my-4" role="button" rel="nofollow" href="#content">Get started</a>
+      <div class="text-center fs-5 my-2">
+        <p>
+          We provide hosting services and tailored website development for individuals, <abbr title="Small and medium-sized enterprises">SMEs</abbr> and <a href="https://en.wikipedia.org/wiki/Free_software">Free&nbsp;Software</a> projects.
+        </p>
+
+        <p>
+          We specialize in decentralized hosting worldwide, mirroring services, DevOps and Linux system administration.
+        </p>
+
+        <p>
+          We also provide custom software development and consulting in cloud infrastructure, scaling, data analysis, etc.
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="container">
   <a aria-label="content" id="content" href="#"></a>
-
   <div class="d-flex flex-column mb-3">
-    <div class="my-5 text-center fs-4">
-      <p>
-        Are you looking for a team of experienced IT consulting experts?
-      </p>
-
-      <p>
-        We provide hosting services and tailored website development for individuals, <abbr title="Small and medium-sized enterprises">SMEs</abbr> and <a href="https://en.wikipedia.org/wiki/Free_software">Free&nbsp;Software</a> projects.
-      </p>
-
-      <p>
-        We specialize in decentralized hosting worldwide, mirroring services, DevOps and Linux system administration.
-      </p>
-
-      <p>
-        We also provide custom software development and consulting in cloud infrastructure, scaling, data analysis, etc.
-      </p>
-    </div>
-
     <div class="my-5 text-center">
       <div class="row">
         <div class="col">
-          <h1>Clients</h1>
+          <h1>Services</h1>
 
-          <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
-            {% include client-card.html domain="cyberbits.asia" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
+          <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-2">
+            {% include service-card.html id="hosting" link="/hosting" description="We provide a hosting service on our battle-tested infrastructure serving terabytes of data every day." %}
 
-            {% include client-card.html domain="cyberbits.eu" description="Software mirror, PGP server, NTP server, Tor relay and more. We manage and improve the infrastructure continually." tags="infrastructure,devops,chef" %}
-
-            {% include client-card.html domain="cool.cash" description="Wealth management software for a diversified portfolio of assets. We develop and design the software in collaboration with the client." tags="api,bespoke,rubyonrails" %}
+            {% include service-card.html id="consulting" link="/consulting" description="We provide consulting in cloud infrastructure, scaling, data analysis and custom software development." %}
           </div>
         </div>
       </div>
     </div>
 
-    <div class="my-5">
+    <div class="my-5 d-none d-lg-block">
       <div class="row align-items-center">
-        <div class="col d-none d-lg-block me-5">
+        <div class="col me-5">
           <img src="/assets/about-us.jpg" class="img-fluid rounded-5" alt="About us">
         </div>
 
@@ -79,7 +71,7 @@ layout: default
     <div class="pt-5">
       <div class="row">
         <div class="col-12 col-md-6">
-          <h1>Contact us</h1>
+          <h1 class="text-center text-sm-start">Contact us</h1>
           <p>
             Let's talk.
             Send us a message here or

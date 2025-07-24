@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
       <img src="/assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
@@ -9,14 +9,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/hosting">Hosting</a></li>
-            <li><a class="dropdown-item" href="mailto:{{ site.email }}">Consulting</a></li>
+            <li><a class="dropdown-item" href="/consulting">Consulting</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -25,10 +25,11 @@
         <li class="nav-item">
           <a class="nav-link px-2 d-none d-sm-block" href="/posts/">Blog</a>
         </li>
-
       </ul>
     </div>
 
-    {%- include social.html -%}
+    <div class="d-none d-sm-block">
+      {%- include social.html -%}
+    </div>
   </div>
 </nav>

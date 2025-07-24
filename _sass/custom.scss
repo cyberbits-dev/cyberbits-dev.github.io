@@ -25,11 +25,15 @@ h1 {
   vertical-align: text-top;
 }
 
+[data-bs-theme="dark"] .svg-icon {
+  filter: invert(1) brightness(2);
+}
+
 .bg-img {
   background-position: center center;
   background-size: cover;
 }
 
 .bg-banner {
-  padding: 8rem 0;
+  padding: 6rem 0 1rem;
 }
