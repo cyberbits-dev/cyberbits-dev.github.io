@@ -8,7 +8,7 @@ layout: default
 <div id="banner" class="bg-img bg-banner" style="background-image: url('/assets/banner-index.jpg')">
   <div class="container d-flex align-items-center justify-content-center text-center h-100">
     <div>
-      <h1 class="display-1">Transform your IT infrastructure</h1>
+      <h1 class="display-1 cursive">Transform your IT infrastructure</h1>
       <p class="fs-4">Unlock the full potential of your business with expert IT consulting services.</p>
       <a class="btn btn-dark px-4 my-4" role="button" rel="nofollow" href="#content">Get started</a>
       <div class="text-center fs-5 my-2">

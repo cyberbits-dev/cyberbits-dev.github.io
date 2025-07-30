@@ -6,10 +6,24 @@
 <div class="container">
   <footer class="row align-items-center mb-4">
     <div class="col">
-      <div><small>&copy; {{ site.company | escape }} 2018-{{ site.time | date: '%Y' }}</small></div>
-    </div>
-    <div class="col text-end">
-      {%- include social.html -%}
+      <div class="row">
+        <div class="col">
+          <nav class="nav">
+            <a class="nav-link" href="/legal/terms">Terms of Service</a>
+            <a class="nav-link" href="/legal/privacy">Privacy Policy</a>
+            <a class="nav-link" href="https://status.{{ site.domain }}/" target="_blank">Status</a>
+            <a class="nav-link" href="/posts/">Blog</a>
+          </nav>
+        </div>
+        <div class="col text-end">
+          {%- include social.html -%}
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col text-center">
+          <small>&copy; {{ site.company | escape }} 2018-{{ site.time | date: '%Y' }}</small>
+        </div>
+      </div>
     </div>
   </footer>
 </div>

@@ -1,9 +1,9 @@
 body {
   font-family: "Open Sans";
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Permanent Marker", cursive;
   margin-bottom: 1.5rem;
 }
 
@@ -11,7 +11,7 @@ h1 {
   text-shadow: #fff 0 0 2rem;
 }
 
-.navbar-brand {
+.navbar-brand, .cursive {
   font-family: "Permanent Marker", cursive;
 }
 
@@ -35,5 +35,5 @@ h1 {
 }
 
 .bg-banner {
-  padding: 6rem 0 1rem;
+  padding: 1rem 0;
 }
